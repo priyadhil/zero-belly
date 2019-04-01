@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Josefin+Sans|Roboto');
+body
+{
+	margin: 0;	
+	padding : 0;
+	background-color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Arvo', serif;
+	font-family: 'Roboto', sans-serif;
+	width : 100vw;
+	letter-spacing: 2px;
+}	
+.fixfloat
+{
+		clear: both;
+		float: none;
+}
+.header
+{
+	width : 100vw;
+	height : 50px;
+	border-bottom : #fabe58 0.5px solid;
+}
+.leftside 
+{
+	width : 70vw;
+	height : 50px;	
+	float : left;
+}
+.leftside i
+{
+	color: #fabe58;
+    font-size: 3em;
+    text-align: center;
+    padding-left: 2em;
+}
+.fork, .dumb, .charge, .book
+{
+	width : 25%;
+	height : 50px;	
+	float : left;
+}
+
+.rightside
+{
+	width : 30vw;
+	height : 50px;	
+	float : left;
+}
+.home
+{
+	width : 100%;
+	height : 50px;	
+	float : left;
+}
+.home i
+{
+	
+    font-size: 3em;
+    text-align: center;
+    float:right;
+	padding-right: 1em;
+	color: #000;
+}
+.container
+{
+	width : 100vw;
+	height : auto;
+}
+.container_leftside
+{
+	width : 70%;
+	height : auto;	
+	float : left;
+}
+.record
+{
+	width : 100%;
+	height : auto;	
+	float : left;
+}
+#top
+{
+	text-transform: uppercase;
+    color: #db0055;
+    font-weight: bold;
+	font-size : 1.5em;
+    height: 1.5em;
+    margin : 0;
+    
+}
+#top1
+{
+	text-transform: capitalize;
+    height: 1.5em;
+}
+.group1
+{
+	width : 100%;
+	height : auto;	
+	float : left;
+	
+}
+.boxhead
+{
+	text-transform :uppercase;
+	color: #ffcb05;
+	
+}
+.exercise
+{
+	
+	width : 75%;
+	height : auto;	
+	float : left;
+}
+.weights
+{
+	
+	text-align : center;
+	width : 25%;
+	height : auto;	
+	float : left;
+}
+.box
+{
+	padding : 0.5em 1em;
+	background-color : #fde3a7;
+	border : #fff 2px solid;
+	height:20px;
+}
+.clear
+{
+	width : 100%;
+	float : left;
+	
+}
+.clearbtn
+{
+	background-color : #d2d7d3;
+	text-transform : uppercase;
+	text-align: center;
+	padding-top:5px;
+   	width : 23.5%;
+	height : 20px;	
+	float : right;
+	padding: 0.5em;
+	border: #fff 2px solid;
+}
+.group2
+{
+	width : 100%;
+	height : auto;	
+	float : left;
+	
+}
+.group2_first
+{
+	width : 100%;
+	font-weight : bold;`
+	
+}
+.group2_second
+{
+	width : 100%;
+	
+}
+.breakfast	
+{
+	text-transform :uppercase;
+	color: #ffcb05;
+	width : 25%;
+	height: 1em;
+	float : left;
+}
+.lunch
+{
+	text-transform :uppercase;
+	color: #ffcb05;
+	width : 25%;
+	height : 30px;	
+	float : left;
+}
+.snack
+{
+	text-transform :uppercase;
+	color: #ffcb05;
+	width : 25%;
+	height : 30px;	
+	float : left;
+}
+.dinner
+{
+	text-transform :uppercase;
+	color: #ffcb05;
+	width : 25%;
+	height : 30px;	
+	float : left;
+}
+.box1, .box2, .box3, .box4
+{
+	float:left;
+	width : 21.8%;
+	padding : 5px 10px;
+	background-color : #fde3a7;
+	border : #fff 2px solid;
+	height:20px;
+	
+}
+
+.feel
+{
+	width:100%;
+	float:left;
+	   
+	height: 6.6em;
+}
+#feel
+{
+	width:100%;
+	height:1.5em;
+	text-transform:uppercase;
+	color:#ffcb05;
+	font-weight:bold;
+	float:left;
+	
+}
+.comments
+{
+	width:100%;
+	height:5em;
+	float:left;
+	background-color : #fde3a7;
+}
+.comments input 
+{
+	
+	float:left;
+    width: 98.2%;
+    padding: 0.5em 1em 0.5em 0em;
+    border: none;
+    outline: none;
+	border-bottom: 1px solid #ec8126;
+    background-color : #fde3a7;
+}
+.container_rightside
+{
+	width : 25%;
+	height : auto;	
+	float : right;
+	/* margin-left:1em; */
+	background-color : #d2d7d3;
+	
+}
+.awesome
+{
+	width:99%;
+	text-align:center;
+}
+#job
+{
+	width:100%;
+	text-transform: uppercase;
+    color: #db0055;
+    font-weight: bold;
+	font-size : 1em;
+    height: auto;
+    margin : 0;
+    padding: 1em;
+	float:left;
+}
+.round
+{
+	border-radius: 50%;
+    color: #db0055;
+    height: 15em;
+    margin: 1em 1.5em;
+    width: 80%;
+    border: 1px solid #db0055;
+    background-color: #db0055;
+}
+.secret
+{
+	width:100%;
+	float: left;
+	text-align:center;
+	text-transform:uppercase;
+	color:#db0055;
+	letter-spacing:1px;
+}
+.before
+{
+	width:100%;
+	float: left;
+	text-align:center;
+	letter-spacing:1px;
+}
+.nextday
+{
+	float: left;
+	width:99%;
+	height:5em;
+}
+#links
+{
+	float: left;
+	width:80%;
+	height:2.5em;
+	padding-top: 1em;
+	background-color: #db0055;
+	cursor:pointer;
+}
+#links span
+{
+	color: #fabe58;
+	font-weight:bold;
+}
+#links a
+{
+	margin:1em;
+	text-decoration:none;
+	color: #fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+
+	
